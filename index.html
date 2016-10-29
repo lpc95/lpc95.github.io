@@ -12,6 +12,7 @@ layout: default
   </div>
 </div>
 
+{% if paginator.posts %}
 <div class="wrapper">
 <ul class="post-list">
   {% for post in paginator.posts %}
@@ -85,6 +86,7 @@ layout: default
 {% endif %}
 
 <br><br><br>
+{% endif %}
 
 </div>
 </div>
