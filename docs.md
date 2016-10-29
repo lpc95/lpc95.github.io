@@ -7,11 +7,11 @@ cover: "/assets/code.jpg"
 ---
 
 ### Нормативные документы
-- [Устав ГСАУ «ЧЛЦ»](/assets/docs/normative/Устав ЧЛЦ.pdf) <i class="fa fa-file-pdf-o" style="color:#e74c3c"></i>
+- <a href="/assets/docs/normative/Устав ЧЛЦ.pdf" target="blank">Устав ГСАУ «ЧЛЦ»</a> <i class="fa fa-file-pdf-o" style="color:#e74c3c"></i>
 
 <br>
 
 ### Справочный материал
 
-- [Полевой справочник лесного пожарного](/assets/docs/informative/Полевой справочник лесного пожарного.pdf) <i class="fa fa-file-pdf-o" style="color:#e74c3c"></i>
-- [Справочник по тушению природных пожаров](/assets/docs/informative/Справочник по тушению природных пожаров.pdf) <i class="fa fa-file-pdf-o" style="color:#e74c3c"></i>
+- <a href="/assets/docs/informative/Полевой справочник лесного пожарного.pdf" target="blank">Полевой справочник лесного пожарного</a> <i class="fa fa-file-pdf-o" style="color:#e74c3c"></i>
+- <a href="/assets/docs/informative/Справочник по тушению природных пожаров.pdf" target="blank">Справочник по тушению природных пожаров</a> <i class="fa fa-file-pdf-o" style="color:#e74c3c"></i>
