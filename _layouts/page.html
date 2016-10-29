@@ -1,0 +1,22 @@
+---
+layout: default
+---
+<div class="wrapper">
+<div class="page">
+
+  <header class="post-header">
+    {% if page.full_title %}
+    <h1 class="post-title">{{ page.full_title }}</h1>  
+    {% else %}
+    <h1 class="post-title">{{ page.title }}</h1>
+    {% endif %}
+  </header>
+
+  {% include page_divider.html %}
+
+  <article class="post-content">
+    {{ content }}
+  </article>
+
+</div>
+</div>

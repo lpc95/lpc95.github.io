@@ -1,0 +1,50 @@
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+exclude:
+  - "/vendor/"
+
+# Настройки сайта
+title: ГСАУ «ЧЛЦ ЧР»
+subtitle: Государственное автономное учреждение «Чеченский лесопожарный центр»
+email: rgu-2011@mail.ru
+name: ГСАУ «Чеченский лесопожарный центр»
+description: >
+  Государственное автономное учреждение «Чеченский лесопожарный центр»
+
+url: "http://lpc-chr.ru"
+cover: "/assets/header_image.jpg"
+logo: "/assets/logo.png"
+
+# Build
+markdown: kramdown
+paginate: 3
+paginate_path: "/page:num/"
+inter_post_navigation: false
+highlightjs_theme: "monokai_sublime"
+
+# Настройки архивирования (см. https://github.com/jekyll/jekyll-archives/)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: 'archive'
+  permalinks:
+    category: '/category/:name/'
+    tag: '/tag/:name/'
+    
+    
+social:
+  - name: Skype
+    icon: skype
+    username: chphs0951
+    url: skype:chphs0951?call
+    desc: Позвонить в Skype
+    share: false
+
+# Комментарии Disqus
+# disqus_shortname: bencentra
+
+# Идентификатор Google Analytics
+# ga_tracking_id: "UA-XXXX-1"
