@@ -4,6 +4,8 @@ title: "Публикации"
 permalink: /posts/
 ---
 
+{% if site.posts > 0 %}
+
     {% for post in site.posts %}
       {% unless post.next %}
         <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
@@ -21,5 +23,11 @@ permalink: /posts/
       <span class="post-date">— {{ post.date | date: "%-d.%m, %Y" }}</span>
 
     {% endfor %}
+    
+{% else %}
+    
+    <div align="center"><sup><i>Пока нет публикаций</i></sup></div>
 
-<br><br><br>
+{% endif %}    
+
+<br>
