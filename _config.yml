@@ -6,7 +6,7 @@ exclude:
   - "/vendor/"
 
 # Настройки сайта
-title: ГСАУ «ЧЛЦ ЧР»
+title: ГСАУ «ЧЛЦ»
 subtitle: Государственное автономное учреждение «Чеченский лесопожарный центр»
 email: rgu-2011@mail.ru
 name: ГСАУ «Чеченский лесопожарный центр»
@@ -36,15 +36,39 @@ jekyll-archives:
     
     
 social:
-  - name: Skype
-    icon: skype
-    username: chphs0951
-    url: skype:chphs0951?call
-    desc: Позвонить в Skype
-    share: false
+    - name: Skype
+      icon: skype
+      username: chphs0951
+      url: skype:chphs0951?call
+      desc: Позвонить в Skype
+      share: false
+    
+    - name: Городской телефон
+      icon: tty
+      username: 22-48-94
+      url: tel:88712294894
+      desc: Позвонить на городской номер
+      share: false
+      
+    - name: Мобильный телефон
+      icon: phone
+      username: 8(928)021-52-23
+      url: tel:89280215223
+      desc: Позвонить
+      share: false
+      
+    - name: Единый номер лесной службы
+      icon: phone-square
+      username: 8(800)100-94-00
+      url: tel:88001009400
+      desc: Позвонить на единый номер (звонок из РФ бесплатный)
+      share: false
+    
+
+    
 
 # Комментарии Disqus
 # disqus_shortname: bencentra
 
 # Идентификатор Google Analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-86507530-1"
